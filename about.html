@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header-about">
+        <nav>
+            <a href=""> <img src="uni-img/University logo with laurel wreath Logo.png" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="Blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <div class="text">
+            <h1>ABOUT US</h1>
+
+
+        </div>
+
+    </section>
+
+
+    <!------------------------------------->
+    <section class="info">
+        <div class="row">
+            <div class="info-heading">
+            <h1> we are made the future</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste mollitia quod fugiat quia aut debitis, reprehenderit dicta consequuntur ipsam excepturi dolores minima architecto quis.</p>
+            <a href="" class="btn1">more details </a>
+        </div>
+        <div class="info-heading">
+            <img src="uni-img/about.jpg"  alt="">
+        </div>
+        </div>
+    </section>
+    
+    <!------------------------------->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>we are University of creating the future</p>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+
+        </div>
+        <p>made by amr mersal <i class="fa fa-heart-o" style="color: red;"></i> thank you </p>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLink = document.getElementById("navlink");
+        function hidemenu() {
+            navLink.style.right = "-200px";
+
+        }
+        function showmenu() {
+            navLink.style.right = "0px"
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b1384a103.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header-about">
+        <nav>
+            <a href=""> <img src="uni-img/University logo with laurel wreath Logo.png" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="courses.html">courses</a></li>
+                    <li><a href="Blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <div class="text">
+            <h1>contact-us </h1>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!------------------------------------->
+    <section class="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110571.5969407029!2d30.989293599999996!3d29.997748700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585124598fb2d1%3A0xc62ce20809bbdff7!2z2YLYs9mFINij2YjZhCA2INij2YPYqtmI2KjYsdiMINmF2K3Yp9mB2LjYqSDYp9mE2KzZitiy2Kk!5e0!3m2!1sar!2seg!4v1724961650269!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="information">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span><h5>al wagieh st , behind supermarket metro</h5></span>
+                        <span><p>egypt , 6th october</p></span>
+
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span><h5>(+20)01143114054</h5></span>
+                        <span><p>sunday to thursday , 10am to 4pm</p></span>
+
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span><h5>amral3117@gmail.com</h5></span>
+                        <span><p>email us to help</p></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="comment-blog">
+                <h3>write your comment</h3>
+                <form>
+                    <input type="text" placeholder="enter your name">
+                    <input type="email" placeholder="enter your email">
+                    <textarea rows="5"></textarea>
+                    <button class="btn"> post comment </button>
+                </form>
+            </div>
+
+
+    </section>
+
+
+
+
+    <!------------------------------->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>we are University of creating the future.</p>
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+
+        </div>
+        <p>made by amr mersal <i class="fa fa-heart-o" style="color: red;"></i> thank you </p>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLink = document.getElementById("navlink");
+        function hidemenu() {
+            navLink.style.right = "-200px";
+
+        }
+        function showmenu() {
+            navLink.style.right = "0px"
+        }
+    </script>
+
+
+</body>
+
+</html>
