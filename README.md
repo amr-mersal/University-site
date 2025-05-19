@@ -4,11 +4,11 @@ A fully responsive and interactive **University Website** built using only **HTM
 
 ---
 
-## 🌐 Live Preview
+##  Live Preview
 https://amr-mersal.github.io/University-site/index.html
 ---
 
-## 📚 Key Features
+##  Key Features
 
 - Beautiful and responsive homepage
 - About page with university details
